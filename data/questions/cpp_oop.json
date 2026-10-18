@@ -1,0 +1,520 @@
+[
+  {
+    "id": "cpp_oop_easy_1",
+    "subject": "oop",
+    "topic": "encapsulation",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "What is encapsulation in OOP?",
+    "options": [
+      "Hiding data and methods within a class",
+      "Inheriting from multiple classes",
+      "Overriding virtual functions",
+      "Creating objects from classes"
+    ],
+    "answer": 0,
+    "explanation": "Encapsulation bundles data and methods that operate on that data within a single unit (class) and restricts direct access to some components.",
+    "objective": "Encapsulation bundles data and methods that operate on that data within a single unit (class) and restricts direct access to some components.",
+    "skillTags": [
+      "Encapsulation"
+    ],
+    "keywords": [
+      "encapsulation"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_easy_2",
+    "subject": "oop",
+    "topic": "encapsulation",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "Which access specifier makes members accessible only within the class?",
+    "options": [
+      "public",
+      "protected",
+      "private",
+      "friend"
+    ],
+    "answer": 2,
+    "explanation": "Private members are only accessible within the class they are declared in.",
+    "objective": "Private members are only accessible within the class they are declared in.",
+    "skillTags": [
+      "Encapsulation"
+    ],
+    "keywords": [
+      "specifier",
+      "members",
+      "accessible"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_easy_3",
+    "subject": "oop",
+    "topic": "inheritance",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "What is single inheritance?",
+    "options": [
+      "A class inheriting from one base class",
+      "A class inheriting from multiple base classes",
+      "A class inheriting from a derived class",
+      "A class with no inheritance"
+    ],
+    "answer": 0,
+    "explanation": "Single inheritance is when a derived class inherits from exactly one base class.",
+    "objective": "Single inheritance is when a derived class inherits from exactly one base class.",
+    "skillTags": [
+      "Inheritance"
+    ],
+    "keywords": [
+      "inheritance"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_easy_4",
+    "subject": "oop",
+    "topic": "polymorphism",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "What enables runtime polymorphism in C++?",
+    "options": [
+      "Function overloading",
+      "Virtual functions",
+      "Templates",
+      "Inline functions"
+    ],
+    "answer": 1,
+    "explanation": "Virtual functions allow derived class methods to be called through base class pointers/references at runtime.",
+    "objective": "Virtual functions allow derived class methods to be called through base class pointers/references at runtime.",
+    "skillTags": [
+      "Polymorphism"
+    ],
+    "keywords": [
+      "enables",
+      "runtime",
+      "polymorphism"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_medium_1",
+    "subject": "oop",
+    "topic": "inheritance",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "Explain the difference between public, protected, and private inheritance in C++.",
+    "keywords": [
+      "public",
+      "protected",
+      "private",
+      "access",
+      "is-a",
+      "implemented-in-terms-of"
+    ],
+    "minKeywords": 3,
+    "explanation": "Public inheritance models 'is-a', protected/private model 'implemented-in-terms-of'. Access levels affect derived class access to base members.",
+    "objective": "Public inheritance models 'is-a', protected/private model 'implemented-in-terms-of'. Access levels affect derived class access to base members.",
+    "skillTags": [
+      "Inheritance"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_medium_2",
+    "subject": "oop",
+    "topic": "polymorphism",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "Describe the difference between static and dynamic polymorphism with examples.",
+    "keywords": [
+      "compile-time",
+      "runtime",
+      "templates",
+      "virtual",
+      "overloading",
+      "overriding"
+    ],
+    "minKeywords": 3,
+    "explanation": "Static polymorphism (templates, overloading) resolved at compile-time. Dynamic polymorphism (virtual functions) resolved at runtime via vtable.",
+    "objective": "Static polymorphism (templates, overloading) resolved at compile-time. Dynamic polymorphism (virtual functions) resolved at runtime via vtable.",
+    "skillTags": [
+      "Polymorphism"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_medium_3",
+    "subject": "oop",
+    "topic": "patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "Which pattern ensures a class has only one instance?",
+    "options": [
+      "Factory",
+      "Singleton",
+      "Builder",
+      "Prototype"
+    ],
+    "answer": 1,
+    "explanation": "Singleton pattern restricts instantiation to a single object and provides global access to it.",
+    "objective": "Singleton pattern restricts instantiation to a single object and provides global access to it.",
+    "skillTags": [
+      "Design Patterns"
+    ],
+    "keywords": [
+      "pattern",
+      "ensures",
+      "instance"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_medium_4",
+    "subject": "oop",
+    "topic": "patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "What pattern defines a family of algorithms and makes them interchangeable?",
+    "options": [
+      "Strategy",
+      "Observer",
+      "Decorator",
+      "Adapter"
+    ],
+    "answer": 0,
+    "explanation": "Strategy pattern encapsulates algorithms and allows switching between them at runtime.",
+    "objective": "Strategy pattern encapsulates algorithms and allows switching between them at runtime.",
+    "skillTags": [
+      "Design Patterns"
+    ],
+    "keywords": [
+      "pattern",
+      "defines",
+      "algorithms",
+      "interchangeable"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_hard_1",
+    "subject": "oop",
+    "topic": "patterns",
+    "difficulty": "Hard",
+    "type": "Coding",
+    "text": "Implement a Strategy pattern for sorting algorithms. Create an interface SortStrategy with execute(vector<int>&) and concrete strategies for BubbleSort, QuickSort, and MergeSort.",
+    "templateCode": "#include <vector>\n#include <algorithm>\n\nclass SortStrategy {\npublic:\n    virtual void execute(std::vector<int>& data) = 0;\n    virtual ~SortStrategy() = default;\n};\n\nclass BubbleSort : public SortStrategy {\npublic:\n    void execute(std::vector<int>& data) override {\n        // TODO\n    }\n};\n\nclass QuickSort : public SortStrategy {\npublic:\n    void execute(std::vector<int>& data) override {\n        // TODO\n    }\n};\n\nclass MergeSort : public SortStrategy {\npublic:\n    void execute(std::vector<int>& data) override {\n        // TODO\n    }\n};",
+    "testCases": [
+      {
+        "input": "5 4 3 2 1",
+        "expectedOutput": "1 2 3 4 5",
+        "isHidden": false
+      },
+      {
+        "input": "3 1 4 1 5 9 2 6",
+        "expectedOutput": "1 1 2 3 4 5 6 9",
+        "isHidden": false
+      },
+      {
+        "input": "1",
+        "expectedOutput": "1",
+        "isHidden": true
+      },
+      {
+        "input": "",
+        "expectedOutput": "",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Strategy pattern allows switching sorting algorithms at runtime without changing client code.",
+    "objective": "Strategy pattern allows switching sorting algorithms at runtime without changing client code.",
+    "skillTags": [
+      "Design Patterns"
+    ],
+    "keywords": [
+      "Implement",
+      "Strategy",
+      "pattern",
+      "sorting"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_hard_2",
+    "subject": "oop",
+    "topic": "polymorphism",
+    "difficulty": "Hard",
+    "type": "Coding",
+    "text": "Implement a simple Observer pattern. Create Subject interface with attach, detach, notify. Create ConcreteSubject with state. Create Observer interface with update(). Create ConcreteObserver that prints state changes.",
+    "templateCode": "#include <vector>\n#include <memory>\n#include <iostream>\n\nclass Observer {\npublic:\n    virtual void update(int state) = 0;\n    virtual ~Observer() = default;\n};\n\nclass Subject {\npublic:\n    virtual void attach(std::shared_ptr<Observer> obs) = 0;\n    virtual void detach(std::shared_ptr<Observer> obs) = 0;\n    virtual void notify() = 0;\n    virtual ~Subject() = default;\n};\n\nclass ConcreteSubject : public Subject {\n    int state_ = 0;\n    std::vector<std::shared_ptr<Observer>> observers_;\npublic:\n    void attach(std::shared_ptr<Observer> obs) override {\n        // TODO\n    }\n    void detach(std::shared_ptr<Observer> obs) override {\n        // TODO\n    }\n    void notify() override {\n        // TODO\n    }\n    void setState(int state) { state_ = state; notify(); }\n    int getState() const { return state_; }\n};\n\nclass ConcreteObserver : public Observer {\n    std::string name_;\npublic:\n    ConcreteObserver(const std::string& name) : name_(name) {}\n    void update(int state) override {\n        // TODO\n    }\n};",
+    "testCases": [
+      {
+        "input": "test1 10 test2 20",
+        "expectedOutput": "Observer test1: 10\nObserver test2: 10\nObserver test1: 20\nObserver test2: 20",
+        "isHidden": false
+      }
+    ],
+    "explanation": "Observer pattern defines one-to-many dependency so when one object changes state, all dependents are notified.",
+    "objective": "Observer pattern defines one-to-many dependency so when one object changes state, all dependents are notified.",
+    "skillTags": [
+      "Polymorphism"
+    ],
+    "keywords": [
+      "Implement",
+      "Observer",
+      "pattern.",
+      "Subject"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_oop_hard_3",
+    "subject": "oop",
+    "topic": "inheritance",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Explain the diamond problem in multiple inheritance and how virtual inheritance solves it. Provide a code example.",
+    "keywords": [
+      "diamond",
+      "virtual",
+      "inheritance",
+      "ambiguity",
+      "vptr",
+      "shared",
+      "base"
+    ],
+    "minKeywords": 4,
+    "explanation": "Diamond problem occurs when a class inherits from two classes that both inherit from a common base. Virtual inheritance ensures only one instance of the base class exists.",
+    "objective": "Diamond problem occurs when a class inherits from two classes that both inherit from a common base. Virtual inheritance ensures only one instance of the base cl",
+    "skillTags": [
+      "Inheritance"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "oop_coding_singleton_threadsafe",
+    "subject": "oop",
+    "topic": "design_patterns",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Implement a thread-safe Meyers Singleton in C++11/17. Demonstrate that calling getInstance() from multiple calls returns a reference to the exact same memory instance.",
+    "templateCode": "#include <iostream>\n\nclass ConfigurationManager {\nprivate:\n    ConfigurationManager() { /* Private constructor */ }\n    ConfigurationManager(const ConfigurationManager&) = delete;\n    ConfigurationManager& operator=(const ConfigurationManager&) = delete;\n\npublic:\n    static ConfigurationManager& getInstance() {\n        // TODO: Thread-safe Meyer's Singleton using static local\n        static ConfigurationManager instance;\n        return instance;\n    }\n\n    void test() {\n        std::cout << \"Singleton Active\" << std::endl;\n    }\n};\n\nint main() {\n    auto& a = ConfigurationManager::getInstance();\n    auto& b = ConfigurationManager::getInstance();\n    std::cout << (&a == &b ? \"SAME_INSTANCE\" : \"DIFFERENT\") << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "run",
+        "expectedOutput": "SAME_INSTANCE",
+        "isHidden": false
+      }
+    ],
+    "explanation": "C++11 standard §6.7 specifies that static local variables are initialized exactly once in a thread-safe manner (Meyers Singleton).",
+    "objective": "Implement thread-safe creational design patterns in modern C++.",
+    "skillTags": [
+      "Design Patterns",
+      "C++",
+      "Singleton"
+    ],
+    "keywords": [
+      "singleton",
+      "thread-safe",
+      "meyers singleton",
+      "design patterns"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "oop_text_solid_principles",
+    "subject": "oop",
+    "topic": "solid",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "Explain the Liskov Substitution Principle (LSP) and how violating it with a classic Rectangle/Square inheritance hierarchy breaks client code.",
+    "keywords": [
+      "preconditions",
+      "postconditions",
+      "invariants",
+      "inheritance",
+      "behavior",
+      "contract",
+      "subtype"
+    ],
+    "minKeywords": 3,
+    "explanation": "LSP states that subtypes must be substitutable for their base types without altering program correctness. A Square cannot cleanly inherit from Rectangle if setting width independently alters height.",
+    "objective": "Master Object-Oriented Design principles and polymorphism contracts.",
+    "skillTags": [
+      "SOLID",
+      "OOP Architecture",
+      "Inheritance"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "oop_text_raii_rule_of_five",
+    "subject": "oop",
+    "topic": "resource_management",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Explain Resource Acquisition Is Initialization (RAII) and detail the Rule of Five in Modern C++ (C++11 and later).",
+    "keywords": [
+      "destructor",
+      "copy constructor",
+      "copy assignment",
+      "move constructor",
+      "move assignment",
+      "resource",
+      "deterministic"
+    ],
+    "minKeywords": 4,
+    "explanation": "RAII binds the lifecycle of a resource to object lifetime. The Rule of Five mandates defining destructor, copy constructor, copy assignment, move constructor, and move assignment when managing raw resources.",
+    "objective": "Demonstrate modern C++ memory management and move semantics proficiency.",
+    "skillTags": [
+      "RAII",
+      "Rule of 5",
+      "Modern C++"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_hard_vtable_vptr_internals",
+    "subject": "cpp_oop",
+    "topic": "polymorphism",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Explain how virtual function dispatch is implemented under the hood in C++ using VTABLE and VPTR. What memory overhead does it introduce?",
+    "explanation": "Every class with at least one virtual function has a static compiler-generated table of function pointers called the VTABLE. Every instantiated object of that class contains an invisible pointer (VPTR) pointing to its class VTABLE, usually at offset 0. When a virtual function is invoked through a base pointer/reference, the program dereferences object->vptr, indexes the appropriate offset in the table, and jumps to the function. Overhead: 8 bytes per object on 64-bit platforms plus one pointer per virtual method per class.",
+    "objective": "Explain virtual dispatch mechanics, runtime polymorphism, and memory overhead of virtual method tables.",
+    "skillTags": [
+      "VTABLE",
+      "VPTR",
+      "Polymorphism",
+      "C++ Internals"
+    ],
+    "keywords": [
+      "vtable",
+      "vptr",
+      "virtual function",
+      "dynamic dispatch",
+      "function pointer",
+      "offset"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_med_rvo_nrvo",
+    "subject": "cpp_oop",
+    "topic": "optimization",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "What is Return Value Optimization (RVO) in modern C++?",
+    "options": [
+      "A compiler optimization where the return value is constructed directly in the storage allocated for the caller's target variable, eliding copy/move constructors",
+      "An optimization where all functions automatically return void to save stack memory",
+      "A runtime garbage collector that frees unused return objects",
+      "A technique where function parameters are sorted alphabetically"
+    ],
+    "answer": 0,
+    "explanation": "RVO (and mandatory copy elision since C++17) allows the compiler to construct a temporary return value directly in the memory space allocated by the caller, eliminating unnecessary copy and move operations.",
+    "objective": "Understand C++ compiler optimizations, copy elision rules, and value semantics.",
+    "skillTags": [
+      "RVO",
+      "Optimization",
+      "Copy Elision",
+      "Modern C++"
+    ],
+    "keywords": [
+      "rvo",
+      "copy elision",
+      "return value optimization",
+      "move semantics"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_hard_forwarding_references",
+    "subject": "cpp_oop",
+    "topic": "templates",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "What is a forwarding reference (universal reference) in C++, and what is the role of std::forward?",
+    "options": [
+      "An auto&& or T&& reference where T is a deduced template type; std::forward preserves the original lvalue or rvalue value category",
+      "A pointer to an address that can never be dereferenced",
+      "A reference that forwards all network packets to a remote server",
+      "A macro for printing debug logs to std::cout"
+    ],
+    "answer": 0,
+    "explanation": "In template contexts with deduced types, T&& is a forwarding reference that collapses to lvalue reference if passed an lvalue, or rvalue reference if passed an rvalue. std::forward<T> statically casts the parameter to preserve its original value category (perfect forwarding).",
+    "objective": "Master perfect forwarding, reference collapsing rules, and generic template design.",
+    "skillTags": [
+      "Templates",
+      "Perfect Forwarding",
+      "Move Semantics",
+      "Modern C++"
+    ],
+    "keywords": [
+      "forwarding reference",
+      "std::forward",
+      "perfect forwarding",
+      "reference collapsing",
+      "value category"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_med_smart_pointer_cycles",
+    "subject": "cpp_oop",
+    "topic": "memory_management",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "How do cyclic references cause memory leaks with std::shared_ptr, and how does std::weak_ptr resolve this issue?",
+    "explanation": "If two objects hold std::shared_ptr references to each other, their strong reference counts will never drop to zero even when all external pointers go out of scope, causing a perpetual leak. std::weak_ptr provides non-owning observer access that increments only the weak reference count without preventing deallocation. When access is needed, lock() creates a temporary shared_ptr.",
+    "objective": "Prevent cyclic memory leaks in complex object graphs using weak pointers.",
+    "skillTags": [
+      "Smart Pointers",
+      "shared_ptr",
+      "weak_ptr",
+      "Memory Safety"
+    ],
+    "keywords": [
+      "cyclic reference",
+      "memory leak",
+      "shared_ptr",
+      "weak_ptr",
+      "reference count",
+      "lock"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "cpp_hard_type_casting",
+    "subject": "cpp_oop",
+    "topic": "type_system",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "When downcasting a base class pointer to a derived class pointer in C++, which cast performs runtime RTTI type checking and returns nullptr on failure?",
+    "options": [
+      "dynamic_cast",
+      "static_cast",
+      "reinterpret_cast",
+      "const_cast"
+    ],
+    "answer": 0,
+    "explanation": "dynamic_cast safely navigates inheritance hierarchies by checking Run-Time Type Information (RTTI) stored in the polymorphic class's VTABLE. It returns nullptr for pointers or throws std::bad_cast for references on mismatch.",
+    "objective": "Evaluate C++ cast operators and understand type safety and RTTI mechanics.",
+    "skillTags": [
+      "dynamic_cast",
+      "RTTI",
+      "Type Casting",
+      "Polymorphism"
+    ],
+    "keywords": [
+      "dynamic_cast",
+      "rtti",
+      "static_cast",
+      "downcasting",
+      "type safety"
+    ],
+    "softSkill": false
+  }
+]

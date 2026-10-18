@@ -1,0 +1,778 @@
+[
+  {
+    "id": "algo_easy_1",
+    "subject": "algo",
+    "topic": "sorting",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "What is the worst-case time complexity of quicksort?",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "answer": 1,
+    "explanation": "With an unlucky pivot choice the partitions stay unbalanced, degrading to O(n^2).",
+    "objective": "With an unlucky pivot choice the partitions stay unbalanced, degrading to O(n^2).",
+    "skillTags": [
+      "Sorting"
+    ],
+    "keywords": [
+      "worst-case",
+      "complexity",
+      "quicksort"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_easy_2",
+    "subject": "algo",
+    "topic": "complexity",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "Which of these is NOT a stable sorting algorithm?",
+    "options": [
+      "Merge sort",
+      "Bubble sort",
+      "Insertion sort",
+      "Heapsort"
+    ],
+    "answer": 3,
+    "explanation": "Heapsort swaps elements across the array, destroying the relative order of equal keys.",
+    "objective": "Heapsort swaps elements across the array, destroying the relative order of equal keys.",
+    "skillTags": [
+      "Complexity Analysis"
+    ],
+    "keywords": [
+      "sorting",
+      "algorithm"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_easy_3",
+    "subject": "algo",
+    "topic": "searching",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "What is the time complexity of binary search on a sorted array of n elements?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "answer": 1,
+    "explanation": "Each comparison halves the search space, giving O(log n).",
+    "objective": "Each comparison halves the search space, giving O(log n).",
+    "skillTags": [
+      "Searching"
+    ],
+    "keywords": [
+      "complexity",
+      "elements"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_easy_4",
+    "subject": "algo",
+    "topic": "complexity",
+    "difficulty": "Easy",
+    "type": "Text",
+    "text": "What does Big-O notation describe?",
+    "keywords": [
+      "upper bound",
+      "worst case",
+      "growth",
+      "asymptotic"
+    ],
+    "minKeywords": 2,
+    "explanation": "Big-O bounds the growth rate of a function from above as the input size tends to infinity.",
+    "objective": "Big-O bounds the growth rate of a function from above as the input size tends to infinity.",
+    "skillTags": [
+      "Complexity Analysis"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_med_1",
+    "subject": "algo",
+    "topic": "dp",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "What are the two essential properties required for dynamic programming to be applicable?",
+    "options": [
+      "Optimal substructure and overlapping subproblems",
+      "Sorting and searching",
+      "Recursion and iteration",
+      "Divide and conquer and pruning"
+    ],
+    "answer": 0,
+    "explanation": "Optimal solutions must contain optimal sub-solutions, and the same subproblems must recur.",
+    "objective": "Optimal solutions must contain optimal sub-solutions, and the same subproblems must recur.",
+    "skillTags": [
+      "Dynamic Programming"
+    ],
+    "keywords": [
+      "essential",
+      "properties",
+      "required",
+      "dynamic"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_med_2",
+    "subject": "algo",
+    "topic": "graphs",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "What is the time complexity of Dijkstra's algorithm using a binary heap?",
+    "keywords": [
+      "(v+e)",
+      "log",
+      "e log v",
+      "heap"
+    ],
+    "minKeywords": 1,
+    "explanation": "With a binary heap each edge relaxation costs O(log V), giving O((V + E) log V).",
+    "objective": "With a binary heap each edge relaxation costs O(log V), giving O((V + E) log V).",
+    "skillTags": [
+      "Graphs"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_med_3",
+    "subject": "algo",
+    "topic": "greedy",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "The greedy fractional knapsack algorithm achieves what approximation ratio?",
+    "options": [
+      "Exact optimum",
+      "At most 2x optimum",
+      "No bound",
+      "At most n x optimum"
+    ],
+    "answer": 0,
+    "explanation": "Fractional knapsack has the greedy-choice property, so sorting by value/weight yields the exact optimum.",
+    "objective": "Fractional knapsack has the greedy-choice property, so sorting by value/weight yields the exact optimum.",
+    "skillTags": [
+      "Greedy"
+    ],
+    "keywords": [
+      "fractional",
+      "knapsack",
+      "algorithm",
+      "achieves"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_med_4",
+    "subject": "algo",
+    "topic": "amortized",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "What is the amortized time complexity of a single push operation on a dynamic array that doubles when full?",
+    "keywords": [
+      "amortized",
+      "o(1)",
+      "constant",
+      "doubling"
+    ],
+    "minKeywords": 1,
+    "explanation": "Rare O(n) resizes are averaged over n insertions, so the amortized cost is O(1).",
+    "objective": "Rare O(n) resizes are averaged over n insertions, so the amortized cost is O(1).",
+    "skillTags": [
+      "Complexity"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_hard_1",
+    "subject": "algo",
+    "topic": "graphs",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "What is the time complexity of the Bellman-Ford algorithm on a graph with V vertices and E edges?",
+    "options": [
+      "O(V + E)",
+      "O(V E)",
+      "O(V^2)",
+      "O(E log V)"
+    ],
+    "answer": 1,
+    "explanation": "It relaxes all E edges V-1 times, so the cost is O(V E).",
+    "objective": "It relaxes all E edges V-1 times, so the cost is O(V E).",
+    "skillTags": [
+      "Graphs"
+    ],
+    "keywords": [
+      "complexity",
+      "Bellman-Ford",
+      "algorithm",
+      "vertices"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_hard_2",
+    "subject": "algo",
+    "topic": "np",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Explain the difference between a decision problem being in NP and being NP-hard.",
+    "keywords": [
+      "verify",
+      "certificate",
+      "polynomial",
+      "reduce",
+      "at least as hard"
+    ],
+    "minKeywords": 2,
+    "explanation": "NP means a proposed solution can be verified in polynomial time; NP-hard means every problem in NP reduces to it, which does not require it to be in NP or even be a decision problem.",
+    "objective": "NP means a proposed solution can be verified in polynomial time; NP-hard means every problem in NP reduces to it, which does not require it to be in NP or even ",
+    "skillTags": [
+      "Complexity"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_hard_3",
+    "subject": "algo",
+    "topic": "sorting",
+    "difficulty": "Hard",
+    "type": "Coding",
+    "text": "Given n integers, find the k largest elements and return them sorted ascending. Use a heap-based approach.",
+    "templateCode": "#include <vector>\n#include <iostream>\n#include <queue>\n\nstd::vector<int> kLargest(std::vector<int> nums, int k) {\n    // TODO: maintain a min-heap of size k\n    return {};\n}\n\nint main() {\n    int n, k;\n    std::cin >> n >> k;\n    std::vector<int> nums(n);\n    for (int& x : nums) std::cin >> x;\n    auto out = kLargest(nums, k);\n    for (int x : out) std::cout << x << ' ';\n    std::cout << '\\n';\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "5 2\n3 1 5 2 4",
+        "expectedOutput": "4 5",
+        "isHidden": false
+      },
+      {
+        "input": "6 3\n10 9 8 7 6 5",
+        "expectedOutput": "8 9 10",
+        "isHidden": true
+      }
+    ],
+    "explanation": "A min-heap of size k costs O(n log k) time and O(k) space, beating a full sort when k is much smaller than n.",
+    "objective": "A min-heap of size k costs O(n log k) time and O(k) space, beating a full sort when k is much smaller than n.",
+    "skillTags": [
+      "Sorting"
+    ],
+    "keywords": [
+      "integers",
+      "largest",
+      "elements",
+      "ascending."
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_hard_4",
+    "subject": "algo",
+    "topic": "dp",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "What is the space-optimised tabulation for the 0/1 knapsack recurrence, and why does collapsing the second dimension work?",
+    "keywords": [
+      "one-dimensional",
+      "iterate weights descending",
+      "in place",
+      "avoid reusing item twice"
+    ],
+    "minKeywords": 2,
+    "explanation": "A single array of capacities works if you iterate the capacity downwards: the value at w - weight must still refer to the previous item, and descending order guarantees that.",
+    "objective": "A single array of capacities works if you iterate the capacity downwards: the value at w - weight must still refer to the previous item, and descending order gu",
+    "skillTags": [
+      "Dynamic Programming"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_coding_two_sum",
+    "subject": "algo",
+    "topic": "arrays_hashing",
+    "difficulty": "Easy",
+    "type": "Coding",
+    "text": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume each input has exactly one solution, and you may not use the same element twice. Return the indices separated by a space in ascending order.",
+    "templateCode": "#include <iostream>\n#include <vector>\n#include <unordered_map>\n\nstd::pair<int, int> twoSum(const std::vector<int>& nums, int target) {\n    // TODO: Use hash map for O(n) lookup\n    return {-1, -1};\n}\n\nint main() {\n    int n, target;\n    if (!(std::cin >> n >> target)) return 0;\n    std::vector<int> nums(n);\n    for (int i = 0; i < n; ++i) std::cin >> nums[i];\n    auto res = twoSum(nums, target);\n    std::cout << res.first << \" \" << res.second << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "4 9\n2 7 11 15",
+        "expectedOutput": "0 1",
+        "isHidden": false
+      },
+      {
+        "input": "3 6\n3 2 4",
+        "expectedOutput": "1 2",
+        "isHidden": false
+      },
+      {
+        "input": "2 6\n3 3",
+        "expectedOutput": "0 1",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Store elements in an unordered_map mapping value to its index. For each number x, check if (target - x) already exists in O(1) average time.",
+    "objective": "Achieve O(n) time complexity using hash maps instead of the naive O(n^2) brute force.",
+    "skillTags": [
+      "Arrays",
+      "Hash Table",
+      "Two Pointers"
+    ],
+    "keywords": [
+      "two sum",
+      "target",
+      "hash map",
+      "indices"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_coding_lru_cache",
+    "subject": "algo",
+    "topic": "design_data_structures",
+    "difficulty": "Hard",
+    "type": "Coding",
+    "text": "Design a data structure that follows the constraints of a Least Recently Used (LRU) cache. Implement LRUCache with capacity, get(key), and put(key, value) in O(1) average time complexity.",
+    "templateCode": "#include <iostream>\n#include <unordered_map>\n#include <list>\n#include <string>\n\nclass LRUCache {\n    int capacity;\n    std::list<std::pair<int, int>> items; // key, value\n    std::unordered_map<int, std::list<std::pair<int, int>>::iterator> cache;\npublic:\n    LRUCache(int cap) : capacity(cap) {}\n\n    int get(int key) {\n        // TODO: retrieve value and move node to front of MRU list\n        return -1;\n    }\n\n    void put(int key, int value) {\n        // TODO: update or insert key-value, evicting LRU element if over capacity\n    }\n};\n\nint main() {\n    int cap, q;\n    if (!(std::cin >> cap >> q)) return 0;\n    LRUCache lru(cap);\n    while (q--) {\n        std::string op;\n        std::cin >> op;\n        if (op == \"put\") {\n            int k, v;\n            std::cin >> k >> v;\n            lru.put(k, v);\n        } else if (op == \"get\") {\n            int k;\n            std::cin >> k;\n            std::cout << lru.get(k) << std::endl;\n        }\n    }\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "2 6\nput 1 1\nput 2 2\nget 1\nput 3 3\nget 2\nget 3",
+        "expectedOutput": "1\n-1\n3",
+        "isHidden": false
+      },
+      {
+        "input": "1 4\nput 10 100\nget 10\nput 20 200\nget 10",
+        "expectedOutput": "100\n-1",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Use a doubly linked list (std::list) for maintaining access order alongside an unordered_map mapping keys to list iterators to guarantee O(1) operations.",
+    "objective": "Demonstrate understanding of compound data structures: combining Hash Table + Doubly Linked List for constant-time eviction.",
+    "skillTags": [
+      "Design",
+      "Doubly Linked List",
+      "Hash Table"
+    ],
+    "keywords": [
+      "lru",
+      "cache",
+      "eviction",
+      "doubly linked list",
+      "o(1)"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_coding_valid_parentheses",
+    "subject": "algo",
+    "topic": "stacks",
+    "difficulty": "Easy",
+    "type": "Coding",
+    "text": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. Open brackets must be closed by the same type of brackets in the correct order. Print 'true' or 'false'.",
+    "templateCode": "#include <iostream>\n#include <string>\n#include <stack>\n\nbool isValid(const std::string& s) {\n    // TODO: use stack to validate matching pairs\n    return false;\n}\n\nint main() {\n    std::string s;\n    if (!(std::cin >> s)) return 0;\n    std::cout << (isValid(s) ? \"true\" : \"false\") << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "()[]{}",
+        "expectedOutput": "true",
+        "isHidden": false
+      },
+      {
+        "input": "(]",
+        "expectedOutput": "false",
+        "isHidden": false
+      },
+      {
+        "input": "([{}])",
+        "expectedOutput": "true",
+        "isHidden": true
+      },
+      {
+        "input": "((",
+        "expectedOutput": "false",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Push opening brackets onto a stack. When encountering a closing bracket, verify the stack is not empty and the top element matches the corresponding opening bracket.",
+    "objective": "Master standard Stack LIFO parsing and handle empty stack boundary conditions.",
+    "skillTags": [
+      "Stack",
+      "Strings"
+    ],
+    "keywords": [
+      "stack",
+      "parentheses",
+      "matching",
+      "brackets"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_coding_max_subarray",
+    "subject": "algo",
+    "topic": "dynamic_programming",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and print its sum (Kadane's Algorithm).",
+    "templateCode": "#include <iostream>\n#include <vector>\n#include <algorithm>\n\nlong long maxSubArray(const std::vector<int>& nums) {\n    // TODO: Kadane's algorithm\n    return 0;\n}\n\nint main() {\n    int n;\n    if (!(std::cin >> n)) return 0;\n    std::vector<int> nums(n);\n    for (int i = 0; i < n; ++i) std::cin >> nums[i];\n    std::cout << maxSubArray(nums) << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "9\n-2 1 -3 4 -1 2 1 -5 4",
+        "expectedOutput": "6",
+        "isHidden": false
+      },
+      {
+        "input": "1\n1",
+        "expectedOutput": "1",
+        "isHidden": false
+      },
+      {
+        "input": "5\n-5 -4 -3 -2 -1",
+        "expectedOutput": "-1",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Kadane's algorithm keeps track of current_max = max(x, current_max + x) and updates overall_max in O(n) time and O(1) space.",
+    "objective": "Implement Kadane's algorithm with proper handling of all-negative arrays.",
+    "skillTags": [
+      "Dynamic Programming",
+      "Arrays",
+      "Kadane"
+    ],
+    "keywords": [
+      "kadane",
+      "subarray",
+      "maximum sum",
+      "contiguous"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_coding_merge_intervals",
+    "subject": "algo",
+    "topic": "intervals",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input. Format: read N pairs, output merged intervals space separated.",
+    "templateCode": "#include <iostream>\n#include <vector>\n#include <algorithm>\n\nstd::vector<std::pair<int, int>> mergeIntervals(std::vector<std::pair<int, int>>& intervals) {\n    // TODO: Sort by start time and merge overlaps\n    return {};\n}\n\nint main() {\n    int n;\n    if (!(std::cin >> n)) return 0;\n    std::vector<std::pair<int, int>> intervals(n);\n    for (int i = 0; i < n; ++i) std::cin >> intervals[i].first >> intervals[i].second;\n    auto res = mergeIntervals(intervals);\n    for (size_t i = 0; i < res.size(); ++i) {\n        if (i > 0) std::cout << \" \";\n        std::cout << res[i].first << \" \" << res[i].second;\n    }\n    std::cout << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "4\n1 3 2 6 8 10 15 18",
+        "expectedOutput": "1 6 8 10 15 18",
+        "isHidden": false
+      },
+      {
+        "input": "2\n1 4 4 5",
+        "expectedOutput": "1 5",
+        "isHidden": false
+      },
+      {
+        "input": "3\n1 4 0 2 3 5",
+        "expectedOutput": "0 5",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Sort intervals by starting time in O(n log n), then iterate through comparing the current interval start with the previous interval end.",
+    "objective": "Apply greedy interval scheduling and sorting techniques.",
+    "skillTags": [
+      "Intervals",
+      "Greedy",
+      "Sorting"
+    ],
+    "keywords": [
+      "intervals",
+      "overlapping",
+      "merge",
+      "sorting"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_coding_trapping_rain_water",
+    "subject": "algo",
+    "topic": "two_pointers",
+    "difficulty": "Hard",
+    "type": "Coding",
+    "text": "Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining using the Two Pointers approach in O(n) time and O(1) extra space.",
+    "templateCode": "#include <iostream>\n#include <vector>\n#include <algorithm>\n\nlong long trapWater(const std::vector<int>& height) {\n    // TODO: Two pointers technique\n    return 0;\n}\n\nint main() {\n    int n;\n    if (!(std::cin >> n)) return 0;\n    std::vector<int> height(n);\n    for (int i = 0; i < n; ++i) std::cin >> height[i];\n    std::cout << trapWater(height) << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "12\n0 1 0 2 1 0 1 3 2 1 2 1",
+        "expectedOutput": "6",
+        "isHidden": false
+      },
+      {
+        "input": "6\n4 2 0 3 2 5",
+        "expectedOutput": "9",
+        "isHidden": false
+      },
+      {
+        "input": "3\n3 0 2",
+        "expectedOutput": "2",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Maintain left and right pointers and tracking variables left_max and right_max. Move the pointer on the shorter boundary inward.",
+    "objective": "Master two-pointer elevation boundary scanning in O(1) auxiliary space.",
+    "skillTags": [
+      "Two Pointers",
+      "Dynamic Programming",
+      "Arrays"
+    ],
+    "keywords": [
+      "trapping",
+      "rain water",
+      "two pointers",
+      "elevation"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_coding_coin_change",
+    "subject": "algo",
+    "topic": "dynamic_programming",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Given an integer array coins representing coins of different denominations and an integer amount, return the fewest number of coins that you need to make up that amount. If that amount cannot be made up, return -1.",
+    "templateCode": "#include <iostream>\n#include <vector>\n#include <algorithm>\n\nint coinChange(const std::vector<int>& coins, int amount) {\n    // TODO: DP tabulation\n    return -1;\n}\n\nint main() {\n    int n, amount;\n    if (!(std::cin >> n >> amount)) return 0;\n    std::vector<int> coins(n);\n    for (int i = 0; i < n; ++i) std::cin >> coins[i];\n    std::cout << coinChange(coins, amount) << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "3 11\n1 2 5",
+        "expectedOutput": "3",
+        "isHidden": false
+      },
+      {
+        "input": "1 3\n2",
+        "expectedOutput": "-1",
+        "isHidden": false
+      },
+      {
+        "input": "1 0\n1",
+        "expectedOutput": "0",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Bottom-up tabulation dp[i] represents minimum coins for amount i. Transition: dp[i] = min(dp[i], dp[i - coin] + 1).",
+    "objective": "Apply unbounded knapsack recurrence relations.",
+    "skillTags": [
+      "Dynamic Programming",
+      "Knapsack"
+    ],
+    "keywords": [
+      "coin change",
+      "fewest coins",
+      "dynamic programming"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "algo_coding_binary_search_rotated",
+    "subject": "algo",
+    "topic": "binary_search",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "There is an integer array nums sorted in ascending order with distinct values, rotated at an unknown pivot index. Given nums and target, return the index of target, or -1 if not found in O(log n) time.",
+    "templateCode": "#include <iostream>\n#include <vector>\n\nint searchRotated(const std::vector<int>& nums, int target) {\n    // TODO: Modified binary search\n    return -1;\n}\n\nint main() {\n    int n, target;\n    if (!(std::cin >> n >> target)) return 0;\n    std::vector<int> nums(n);\n    for (int i = 0; i < n; ++i) std::cin >> nums[i];\n    std::cout << searchRotated(nums, target) << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "7 0\n4 5 6 7 0 1 2",
+        "expectedOutput": "4",
+        "isHidden": false
+      },
+      {
+        "input": "7 3\n4 5 6 7 0 1 2",
+        "expectedOutput": "-1",
+        "isHidden": false
+      },
+      {
+        "input": "1 0\n0",
+        "expectedOutput": "0",
+        "isHidden": true
+      }
+    ],
+    "explanation": "At any midpoint, at least one half (left or right) is guaranteed to be normally sorted. Determine which half is sorted and test if target falls within it.",
+    "objective": "Master logarithmic binary search with rotational invariants.",
+    "skillTags": [
+      "Binary Search",
+      "Arrays"
+    ],
+    "keywords": [
+      "rotated",
+      "binary search",
+      "log n"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "longest-substring-without-repeating-characters",
+    "subject": "algo",
+    "topic": "sliding_window",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Given a string s, find the length of the longest substring without duplicate characters in optimal O(N) time and O(min(N, M)) space using a sliding window.",
+    "explanation": "Maintain a sliding window [left, right] along with a hash table recording the most recent index of each character. When a duplicate character is encountered, jump the left pointer past its previous occurrence.",
+    "objective": "Master the sliding window technique and two-pointer state tracking.",
+    "skillTags": [
+      "Sliding Window",
+      "Hash Table",
+      "Strings",
+      "Algorithms"
+    ],
+    "keywords": [
+      "longest substring",
+      "sliding window",
+      "two pointers",
+      "hash table"
+    ],
+    "softSkill": false,
+    "templateCode": "#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>\n\nint lengthOfLongestSubstring(const std::string& s) {\n    std::vector<int> lastIndex(256, -1);\n    int maxLen = 0, start = 0;\n    for (int i = 0; i < (int)s.size(); ++i) {\n        unsigned char c = s[i];\n        if (lastIndex[c] >= start) {\n            start = lastIndex[c] + 1;\n        }\n        lastIndex[c] = i;\n        maxLen = std::max(maxLen, i - start + 1);\n    }\n    return maxLen;\n}\n\nint main() {\n    std::string s;\n    if (std::cin >> s) {\n        std::cout << lengthOfLongestSubstring(s) << std::endl;\n    } else {\n        std::cout << 0 << std::endl;\n    }\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "abcabcbb",
+        "expectedOutput": "3",
+        "isHidden": false
+      },
+      {
+        "input": "bbbbb",
+        "expectedOutput": "1",
+        "isHidden": false
+      },
+      {
+        "input": "pwwkew",
+        "expectedOutput": "3",
+        "isHidden": true
+      }
+    ]
+  },
+  {
+    "id": "kth-largest-element-in-an-array",
+    "subject": "algo",
+    "topic": "heaps_quickselect",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Given an integer array nums and an integer k, return the kth largest element in the array using a min-heap or Quickselect.",
+    "explanation": "Maintain a min-heap of size k. Iterate through nums: if the current element is greater than the heap's top, pop the top and push the element. The heap top at the end will be the kth largest element.",
+    "objective": "Master min-heap streaming and Quickselect partitioning.",
+    "skillTags": [
+      "Heaps",
+      "Priority Queue",
+      "Quickselect",
+      "Sorting"
+    ],
+    "keywords": [
+      "kth largest",
+      "min heap",
+      "priority queue",
+      "quickselect"
+    ],
+    "softSkill": false,
+    "templateCode": "#include <iostream>\n#include <vector>\n#include <queue>\n\nint findKthLargest(const std::vector<int>& nums, int k) {\n    std::priority_queue<int, std::vector<int>, std::greater<int>> minHeap;\n    for (int x : nums) {\n        minHeap.push(x);\n        if ((int)minHeap.size() > k) minHeap.pop();\n    }\n    return minHeap.top();\n}\n\nint main() {\n    int n, k;\n    if (!(std::cin >> n >> k)) return 0;\n    std::vector<int> nums(n);\n    for (int i = 0; i < n; ++i) std::cin >> nums[i];\n    std::cout << findKthLargest(nums, k) << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "6 2\n3 2 1 5 6 4",
+        "expectedOutput": "5",
+        "isHidden": false
+      },
+      {
+        "input": "9 4\n3 2 3 1 2 4 5 5 6",
+        "expectedOutput": "4",
+        "isHidden": false
+      },
+      {
+        "input": "1 1\n1",
+        "expectedOutput": "1",
+        "isHidden": true
+      }
+    ]
+  },
+  {
+    "id": "course-schedule",
+    "subject": "algo",
+    "topic": "graphs",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "There are a total of numCourses courses labeled 0 to numCourses - 1. You are given an array prerequisites. Determine if you can finish all courses using Kahn's algorithm (topological sort) or cycle detection in a directed graph.",
+    "explanation": "Model prerequisites as a directed graph. Track in-degrees of all nodes. Enqueue all nodes with in-degree 0. While the queue is non-empty, dequeue a node, increment processed count, and decrement in-degrees of neighbors. If processed count equals numCourses, the graph is a DAG with no cycles.",
+    "objective": "Implement topological sorting and cycle detection in directed graphs.",
+    "skillTags": [
+      "Graphs",
+      "Topological Sort",
+      "BFS",
+      "Kahn Algorithm"
+    ],
+    "keywords": [
+      "topological sort",
+      "course schedule",
+      "cycle detection",
+      "dag",
+      "graphs"
+    ],
+    "softSkill": false,
+    "templateCode": "#include <iostream>\n#include <vector>\n#include <queue>\n\nbool canFinish(int numCourses, const std::vector<std::pair<int,int>>& prerequisites) {\n    std::vector<int> inDegree(numCourses, 0);\n    std::vector<std::vector<int>> adj(numCourses);\n    for (const auto& p : prerequisites) {\n        adj[p.second].push_back(p.first);\n        inDegree[p.first]++;\n    }\n    std::queue<int> q;\n    for (int i = 0; i < numCourses; ++i) if (inDegree[i] == 0) q.push(i);\n    int count = 0;\n    while (!q.empty()) {\n        int u = q.front(); q.pop();\n        count++;\n        for (int v : adj[u]) {\n            if (--inDegree[v] == 0) q.push(v);\n        }\n    }\n    return count == numCourses;\n}\n\nint main() {\n    int n, m;\n    if (!(std::cin >> n >> m)) return 0;\n    std::vector<std::pair<int,int>> prereqs(m);\n    for (int i = 0; i < m; ++i) std::cin >> prereqs[i].first >> prereqs[i].second;\n    std::cout << (canFinish(n, prereqs) ? 1 : 0) << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "2 1\n1 0",
+        "expectedOutput": "1",
+        "isHidden": false
+      },
+      {
+        "input": "2 2\n1 0\n0 1",
+        "expectedOutput": "0",
+        "isHidden": false
+      },
+      {
+        "input": "1 0",
+        "expectedOutput": "1",
+        "isHidden": true
+      }
+    ]
+  },
+  {
+    "id": "word-break",
+    "subject": "algo",
+    "topic": "dynamic_programming",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Given a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words. Solve using Dynamic Programming.",
+    "explanation": "Define dp[i] as true if s[0...i-1] can be segmented. Base case: dp[0] = true. For each i from 1 to n, and j from 0 to i-1, if dp[j] is true and s[j...i-1] is in wordDict, set dp[i] = true and break.",
+    "objective": "Apply 1D dynamic programming with dictionary lookups.",
+    "skillTags": [
+      "Dynamic Programming",
+      "Strings",
+      "Hash Set"
+    ],
+    "keywords": [
+      "word break",
+      "dynamic programming",
+      "dictionary",
+      "memoization"
+    ],
+    "softSkill": false,
+    "templateCode": "#include <iostream>\n#include <string>\n#include <vector>\n#include <unordered_set>\n\nbool wordBreak(const std::string& s, const std::vector<std::string>& wordDict) {\n    std::unordered_set<std::string> dict(wordDict.begin(), wordDict.end());\n    std::vector<bool> dp(s.size() + 1, false);\n    dp[0] = true;\n    for (int i = 1; i <= (int)s.size(); ++i) {\n        for (int j = 0; j < i; ++j) {\n            if (dp[j] && dict.count(s.substr(j, i - j))) {\n                dp[i] = true;\n                break;\n            }\n        }\n    }\n    return dp[s.size()];\n}\n\nint main() {\n    std::string s;\n    int m;\n    if (!(std::cin >> s >> m)) return 0;\n    std::vector<std::string> dict(m);\n    for (int i = 0; i < m; ++i) std::cin >> dict[i];\n    std::cout << (wordBreak(s, dict) ? 1 : 0) << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "leetcode 2\nleet code",
+        "expectedOutput": "1",
+        "isHidden": false
+      },
+      {
+        "input": "catsandog 5\ncats dog sand and cat",
+        "expectedOutput": "0",
+        "isHidden": false
+      },
+      {
+        "input": "applepenapple 2\napple pen",
+        "expectedOutput": "1",
+        "isHidden": true
+      }
+    ]
+  }
+]

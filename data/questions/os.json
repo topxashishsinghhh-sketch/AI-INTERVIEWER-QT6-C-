@@ -1,0 +1,440 @@
+[
+  {
+    "id": "os_easy_1",
+    "subject": "os",
+    "topic": "processes",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "What are the typical states in a process lifecycle?",
+    "options": [
+      "New, Ready, Running, Waiting, Terminated",
+      "Start, Middle, End",
+      "Read, Write, Execute",
+      "Compile, Link, Load"
+    ],
+    "answer": 0,
+    "explanation": "A process moves between new, ready, running and waiting, then terminates.",
+    "objective": "A process moves between new, ready, running and waiting, then terminates.",
+    "skillTags": [
+      "Processes"
+    ],
+    "keywords": [
+      "typical",
+      "process",
+      "lifecycle"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_easy_2",
+    "subject": "os",
+    "topic": "scheduling",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "Which CPU scheduling algorithm can cause starvation of long jobs?",
+    "options": [
+      "Shortest Job First",
+      "First Come First Served",
+      "Round Robin",
+      "Longest Job First"
+    ],
+    "answer": 0,
+    "explanation": "SJF always favours short jobs, so a steady stream of them starves longer ones.",
+    "objective": "SJF always favours short jobs, so a steady stream of them starves longer ones.",
+    "skillTags": [
+      "CPU Scheduling"
+    ],
+    "keywords": [
+      "scheduling",
+      "algorithm",
+      "starvation"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_easy_3",
+    "subject": "os",
+    "topic": "memory",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "A page fault occurs when:",
+    "options": [
+      "The required page is not in physical memory",
+      "The CPU overheats",
+      "A disk sector fails",
+      "Memory is full of cache"
+    ],
+    "answer": 0,
+    "explanation": "The referenced virtual page is absent, so it must be fetched from secondary storage.",
+    "objective": "The referenced virtual page is absent, so it must be fetched from secondary storage.",
+    "skillTags": [
+      "Memory Management"
+    ],
+    "keywords": [
+      "concept"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_easy_4",
+    "subject": "os",
+    "topic": "concurrency",
+    "difficulty": "Easy",
+    "type": "Text",
+    "text": "What is a race condition?",
+    "keywords": [
+      "concurrent",
+      "shared",
+      "outcome",
+      "timing",
+      "ordering"
+    ],
+    "minKeywords": 2,
+    "explanation": "The result depends on the relative timing or ordering of concurrent accesses to shared state.",
+    "objective": "The result depends on the relative timing or ordering of concurrent accesses to shared state.",
+    "skillTags": [
+      "Concurrency"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_med_1",
+    "subject": "os",
+    "topic": "synchronization",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "Which requirement must a correct solution to the critical section problem satisfy?",
+    "options": [
+      "Mutual exclusion",
+      "High throughput only",
+      "Fixed priority",
+      "Memory sharing"
+    ],
+    "answer": 0,
+    "explanation": "Mutual exclusion is the core requirement; progress and bounded waiting must also hold.",
+    "objective": "Mutual exclusion is the core requirement; progress and bounded waiting must also hold.",
+    "skillTags": [
+      "Synchronization"
+    ],
+    "keywords": [
+      "requirement",
+      "correct",
+      "solution",
+      "critical"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_med_2",
+    "subject": "os",
+    "topic": "deadlock",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "List the four necessary conditions for deadlock.",
+    "keywords": [
+      "mutual exclusion",
+      "hold and wait",
+      "no preemption",
+      "circular wait"
+    ],
+    "minKeywords": 3,
+    "explanation": "All four (Coffman) conditions must hold simultaneously for a deadlock to arise.",
+    "objective": "All four (Coffman) conditions must hold simultaneously for a deadlock to arise.",
+    "skillTags": [
+      "Deadlocks"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_med_3",
+    "subject": "os",
+    "topic": "memory",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "In demand paging, the effective access time is closest to:",
+    "options": [
+      "Page-fault-rate dependent",
+      "Always the disk seek time",
+      "Zero",
+      "The TLB lookup time"
+    ],
+    "answer": 0,
+    "explanation": "EAT blends the memory access time with the (rare) service time weighted by the fault rate.",
+    "objective": "EAT blends the memory access time with the (rare) service time weighted by the fault rate.",
+    "skillTags": [
+      "Memory Management"
+    ],
+    "keywords": [
+      "effective",
+      "closest"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_med_4",
+    "subject": "os",
+    "topic": "storage",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "Why is the disk scheduling algorithm SCAN (elevator) better than FCFS for heavy I/O?",
+    "keywords": [
+      "seek",
+      "head",
+      "direction",
+      "reduced",
+      "throughput"
+    ],
+    "minKeywords": 2,
+    "explanation": "It moves the head monotonically, servicing requests along the way and cutting total seek distance.",
+    "objective": "It moves the head monotonically, servicing requests along the way and cutting total seek distance.",
+    "skillTags": [
+      "File Systems"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_hard_1",
+    "subject": "os",
+    "topic": "synchronization",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "The readers-writers problem with writer priority can cause:",
+    "options": [
+      "Reader starvation",
+      "Data corruption",
+      "A system crash",
+      "Deadlock on all reads"
+    ],
+    "answer": 0,
+    "explanation": "Prioritising writers means a waiting writer blocks new readers, so readers may starve.",
+    "objective": "Prioritising writers means a waiting writer blocks new readers, so readers may starve.",
+    "skillTags": [
+      "Synchronization"
+    ],
+    "keywords": [
+      "readers-writers",
+      "problem",
+      "priority"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_hard_2",
+    "subject": "os",
+    "topic": "concurrency",
+    "difficulty": "Hard",
+    "type": "Coding",
+    "text": "Implement a counting semaphore using two standard semaphores and a counter, with wait() and signal().",
+    "templateCode": "#include <condition_variable>\n#include <mutex>\n\nclass CountingSemaphore {\npublic:\n    explicit CountingSemaphore(int initial) : count_(initial) {}\n    void wait();\n    void signal();\nprivate:\n    std::mutex m_;\n    std::condition_variable cv_;\n    int count_;\n};\n",
+    "testCases": [
+      {
+        "input": "1\nwait\nwait_should_block\n",
+        "expectedOutput": "blocked",
+        "isHidden": false
+      },
+      {
+        "input": "2\nwait\nwait\nwait_should_block\n",
+        "expectedOutput": "blocked",
+        "isHidden": true
+      }
+    ],
+    "explanation": "A mutex protects the counter and a condition variable blocks and wakes waiters without busy waiting.",
+    "objective": "A mutex protects the counter and a condition variable blocks and wakes waiters without busy waiting.",
+    "skillTags": [
+      "Concurrency"
+    ],
+    "keywords": [
+      "Implement",
+      "counting",
+      "semaphore",
+      "standard"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_hard_3",
+    "subject": "os",
+    "topic": "memory",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Explain why a TLB miss is not automatically a page fault.",
+    "keywords": [
+      "translation",
+      "valid",
+      "memory",
+      "page table",
+      "cache"
+    ],
+    "minKeywords": 2,
+    "explanation": "A TLB miss only means the cached translation is absent; the page may still be resident, so the page table in memory is consulted.",
+    "objective": "A TLB miss only means the cached translation is absent; the page may still be resident, so the page table in memory is consulted.",
+    "skillTags": [
+      "Memory Management"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_hard_4",
+    "subject": "os",
+    "topic": "scheduling",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Why does multilevel feedback queue scheduling approximate SRTF without knowing burst times?",
+    "keywords": [
+      "ageing",
+      "demotion",
+      "priority",
+      "interactive",
+      "short"
+    ],
+    "minKeywords": 2,
+    "explanation": "Jobs that yield the CPU quickly stay at high priority while long ones are demoted, so short jobs are favoured by observed behaviour.",
+    "objective": "Jobs that yield the CPU quickly stay at high priority while long ones are demoted, so short jobs are favoured by observed behaviour.",
+    "skillTags": [
+      "CPU Scheduling"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_med_virtual_memory_tlb",
+    "subject": "os",
+    "topic": "memory_management",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "What happens during a Translation Lookaside Buffer (TLB) miss in modern x86-64 virtual memory architectures?",
+    "options": [
+      "The Memory Management Unit (MMU) walks multi-level page tables in physical RAM to translate the virtual address to physical address",
+      "The operating system halts and prompts the CPU to execute a hard reboot",
+      "The kernel immediately throws a segmentation fault (SIGSEGV) terminating the process",
+      "The CPU swaps the entire process address space onto secondary disk storage"
+    ],
+    "answer": 0,
+    "explanation": "On a TLB miss, a hardware page table walk traverses the multi-level page hierarchy (PML4, PDPT, PD, PT) to resolve the physical page frame address and load the entry into the TLB.",
+    "objective": "Understand virtual memory address translation, TLB caching hierarchy, and hardware page table walks.",
+    "skillTags": [
+      "Virtual Memory",
+      "TLB",
+      "Memory Management"
+    ],
+    "keywords": [
+      "tlb",
+      "virtual memory",
+      "mmu",
+      "page table",
+      "address translation"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_med_mutex_vs_semaphore",
+    "subject": "os",
+    "topic": "concurrency",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "What is the primary conceptual difference between a Mutex and a Counting Semaphore in operating system synchronization?",
+    "options": [
+      "A Mutex has an ownership semantic (only the acquiring thread can release it), whereas a Semaphore can be signaled by any thread",
+      "A Mutex allows up to 5 concurrent threads, while a Semaphore allows only 1",
+      "A Semaphore operates strictly in user-space while a Mutex always triggers a kernel interrupt",
+      "There is no difference; Mutex is simply the POSIX name for Semaphore"
+    ],
+    "answer": 0,
+    "explanation": "A mutex enforces ownership: only the thread that locked the mutex can unlock it. A semaphore maintains an integer count and can be used for signaling across different threads.",
+    "objective": "Distinguish between mutual exclusion locks and signaling primitives in multi-threaded programming.",
+    "skillTags": [
+      "Concurrency",
+      "Mutex",
+      "Semaphores",
+      "Synchronization"
+    ],
+    "keywords": [
+      "mutex",
+      "semaphore",
+      "synchronization",
+      "ownership",
+      "concurrency"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_hard_deadlock_coffman",
+    "subject": "os",
+    "topic": "deadlock",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "Which of the following describes the four Coffman conditions necessary for a deadlock to occur in an operating system?",
+    "options": [
+      "Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait",
+      "Preemption, Race Condition, Starvation, Aging",
+      "Paging, Segmentation, Swapping, Thrashing",
+      "Virtualization, Multiprocessing, Scheduling, Polling"
+    ],
+    "answer": 0,
+    "explanation": "A deadlock can only occur if all four Coffman conditions simultaneously hold: Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait.",
+    "objective": "Analyze resource allocation graphs and deadlock prevention mechanisms using the Coffman conditions.",
+    "skillTags": [
+      "Deadlock",
+      "Resource Allocation",
+      "Operating Systems"
+    ],
+    "keywords": [
+      "deadlock",
+      "coffman",
+      "mutual exclusion",
+      "circular wait",
+      "no preemption"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_med_cow_fork",
+    "subject": "os",
+    "topic": "processes",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "Explain Copy-on-Write (COW) during a Unix fork() system call. How does it optimize process creation and memory utilization?",
+    "explanation": "When fork() is called, the child process receives a copy of the parent's page table entries with write permissions cleared and marked as COW. Physical memory pages are shared between parent and child until one of them writes to a page, at which point a page fault is triggered and the OS duplicates only that modified page.",
+    "objective": "Explain process memory virtualization, page fault handling, and resource optimization in Linux/Unix.",
+    "skillTags": [
+      "Copy on Write",
+      "fork",
+      "Processes",
+      "Memory Virtualization"
+    ],
+    "keywords": [
+      "copy on write",
+      "fork",
+      "page fault",
+      "duplicate",
+      "shared memory",
+      "mmu"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "os_hard_context_switch_overhead",
+    "subject": "os",
+    "topic": "scheduling",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "What operations occur during an operating system context switch between two different processes, and why is a process context switch costlier than a thread context switch?",
+    "explanation": "A process context switch requires saving CPU registers (PC, SP, general purpose), changing kernel stack pointer, updating the page table base register (CR3 on x86) which invalidates/flushes the TLB, and repopulating cache lines. Thread context switches within the same process share the same virtual address space, avoiding TLB flushes and page table swaps.",
+    "objective": "Evaluate kernel context switching overhead, CPU cache pollution, and TLB invalidation differences between processes and threads.",
+    "skillTags": [
+      "Context Switching",
+      "Threads",
+      "CPU Scheduling",
+      "TLB"
+    ],
+    "keywords": [
+      "context switch",
+      "registers",
+      "tlb flush",
+      "cr3",
+      "page directory",
+      "cache pollution",
+      "thread"
+    ],
+    "softSkill": false
+  }
+]

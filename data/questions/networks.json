@@ -1,0 +1,446 @@
+[
+  {
+    "id": "net_easy_1",
+    "subject": "networks",
+    "topic": "layers",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "In the OSI model, which layer handles routing between networks?",
+    "options": [
+      "Network",
+      "Transport",
+      "Data link",
+      "Session"
+    ],
+    "answer": 0,
+    "explanation": "The network layer performs logical addressing and routing; routers operate there.",
+    "objective": "The network layer performs logical addressing and routing; routers operate there.",
+    "skillTags": [
+      "Network Layers"
+    ],
+    "keywords": [
+      "handles",
+      "routing",
+      "between",
+      "networks"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_easy_2",
+    "subject": "networks",
+    "topic": "transport",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "Which transport protocol is connection-oriented and reliable?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "ARP"
+    ],
+    "answer": 0,
+    "explanation": "TCP provides sequencing, acknowledgements and retransmission; UDP is best-effort.",
+    "objective": "TCP provides sequencing, acknowledgements and retransmission; UDP is best-effort.",
+    "skillTags": [
+      "Transport"
+    ],
+    "keywords": [
+      "transport",
+      "protocol",
+      "connection-oriented",
+      "reliable"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_easy_3",
+    "subject": "networks",
+    "topic": "addressing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "How many bits are in an IPv4 address?",
+    "options": [
+      "32",
+      "64",
+      "128",
+      "16"
+    ],
+    "answer": 0,
+    "explanation": "IPv4 uses 32 bits, usually written as four dotted decimal octets.",
+    "objective": "IPv4 uses 32 bits, usually written as four dotted decimal octets.",
+    "skillTags": [
+      "Addressing"
+    ],
+    "keywords": [
+      "address"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_easy_4",
+    "subject": "networks",
+    "topic": "protocols",
+    "difficulty": "Easy",
+    "type": "Text",
+    "text": "What does DNS do?",
+    "keywords": [
+      "domain",
+      "name",
+      "ip",
+      "resolve",
+      "translate"
+    ],
+    "minKeywords": 2,
+    "explanation": "DNS translates human-readable domain names into IP addresses.",
+    "objective": "DNS translates human-readable domain names into IP addresses.",
+    "skillTags": [
+      "Protocols"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_med_1",
+    "subject": "networks",
+    "topic": "transport",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "TCP's three-way handshake consists of:",
+    "options": [
+      "SYN, SYN-ACK, ACK",
+      "SYN, FIN, ACK",
+      "SYN, ACK, RST",
+      "GET, POST, OK"
+    ],
+    "answer": 0,
+    "explanation": "The client sends SYN, the server replies SYN-ACK, and the client completes with ACK.",
+    "objective": "The client sends SYN, the server replies SYN-ACK, and the client completes with ACK.",
+    "skillTags": [
+      "Transport"
+    ],
+    "keywords": [
+      "three-way",
+      "handshake",
+      "consists"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_med_2",
+    "subject": "networks",
+    "topic": "congestion",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "In TCP congestion control, what does the slow-start threshold control after a loss?",
+    "keywords": [
+      "ssthresh",
+      "halve",
+      "window",
+      "avoidance",
+      "multiplicative decrease"
+    ],
+    "minKeywords": 2,
+    "explanation": "On loss the threshold drops (typically to half the window) and the sender switches from exponential growth to linear AIMD.",
+    "objective": "On loss the threshold drops (typically to half the window) and the sender switches from exponential growth to linear AIMD.",
+    "skillTags": [
+      "Congestion Control"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_med_3",
+    "subject": "networks",
+    "topic": "routing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "Which routing protocol is a link-state protocol?",
+    "options": [
+      "OSPF",
+      "RIP",
+      "BGP",
+      "EIGRP"
+    ],
+    "answer": 0,
+    "explanation": "OSPF floods link-state advertisements and runs Dijkstra; RIP is distance-vector and BGP is path-vector.",
+    "objective": "OSPF floods link-state advertisements and runs Dijkstra; RIP is distance-vector and BGP is path-vector.",
+    "skillTags": [
+      "Routing"
+    ],
+    "keywords": [
+      "routing",
+      "protocol",
+      "link-state"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_med_4",
+    "subject": "networks",
+    "topic": "layers",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "What is the difference between a switch and a router?",
+    "keywords": [
+      "mac",
+      "frame",
+      "layer 2",
+      "ip",
+      "packet",
+      "layer 3",
+      "route"
+    ],
+    "minKeywords": 2,
+    "explanation": "A switch forwards frames using MAC addresses within a broadcast domain; a router forwards packets between networks using IP addresses.",
+    "objective": "A switch forwards frames using MAC addresses within a broadcast domain; a router forwards packets between networks using IP addresses.",
+    "skillTags": [
+      "Network Layers"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_hard_1",
+    "subject": "networks",
+    "topic": "congestion",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "What problem does the silly window syndrome describe?",
+    "options": [
+      "Tiny segments from small receiver windows",
+      "Oversized MTU frames",
+      "Excessive ARP requests",
+      "IP fragmentation of large datagrams"
+    ],
+    "answer": 0,
+    "explanation": "Small advertised windows cause senders to transmit small segments, wasting bandwidth and header overhead.",
+    "objective": "Small advertised windows cause senders to transmit small segments, wasting bandwidth and header overhead.",
+    "skillTags": [
+      "Congestion Control"
+    ],
+    "keywords": [
+      "problem",
+      "syndrome",
+      "describe"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_hard_2",
+    "subject": "networks",
+    "topic": "routing",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Why can the count-to-infinity problem occur in distance-vector routing, and how does split horizon help?",
+    "keywords": [
+      "loop",
+      "stale",
+      "neighbour",
+      "advertise",
+      "back",
+      "infinite"
+    ],
+    "minKeywords": 2,
+    "explanation": "Nodes slowly converge upward on stale routes because they trust neighbours; split horizon stops advertising a route back to the neighbour it was learned from.",
+    "objective": "Nodes slowly converge upward on stale routes because they trust neighbours; split horizon stops advertising a route back to the neighbour it was learned from.",
+    "skillTags": [
+      "Routing"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_hard_3",
+    "subject": "networks",
+    "topic": "transport",
+    "difficulty": "Hard",
+    "type": "Coding",
+    "text": "Implement a single-bit sliding window stop-and-wait sender loop that retransmits on timeout and accepts on ACK.",
+    "templateCode": "#include <iostream>\n#include <string>\n\n// Return true when the frame is acknowledged, retrying on timeout.\nbool sendWithRetries(const std::string& frame, int maxAttempts) {\n    // TODO: send frame, wait for ack, retransmit on timeout\n    return false;\n}\n\nint main() { std::cout << (sendWithRetries(\"data\", 3) ? \"ACK\" : \"FAIL\") << '\\n'; return 0; }\n",
+    "testCases": [
+      {
+        "input": "ack_immediately",
+        "expectedOutput": "ACK",
+        "isHidden": false
+      },
+      {
+        "input": "timeout_then_ack",
+        "expectedOutput": "ACK",
+        "isHidden": true
+      }
+    ],
+    "explanation": "A stop-and-wait sender keeps a timer and one outstanding frame, retransmitting the same sequence number until acknowledged.",
+    "objective": "A stop-and-wait sender keeps a timer and one outstanding frame, retransmitting the same sequence number until acknowledged.",
+    "skillTags": [
+      "Transport"
+    ],
+    "keywords": [
+      "Implement",
+      "single-bit",
+      "sliding",
+      "stop-and-wait"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_hard_4",
+    "subject": "networks",
+    "topic": "addressing",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Explain CIDR and how it reduces the size of routing tables compared to classful addressing.",
+    "keywords": [
+      "prefix",
+      "aggregate",
+      "subnet",
+      "mask",
+      "route summarisation"
+    ],
+    "minKeywords": 2,
+    "explanation": "CIDR uses variable-length prefixes so adjacent blocks can be aggregated into a single route, shrinking the global table.",
+    "objective": "CIDR uses variable-length prefixes so adjacent blocks can be aggregated into a single route, shrinking the global table.",
+    "skillTags": [
+      "Addressing"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_med_tcp_handshake",
+    "subject": "networks",
+    "topic": "transport_layer",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "What is the sequence of flag packets exchanged during a standard TCP three-way handshake?",
+    "options": [
+      "SYN -> SYN-ACK -> ACK",
+      "ACK -> SYN -> FIN",
+      "HELLO -> READY -> CONNECT",
+      "GET -> POST -> 200 OK"
+    ],
+    "answer": 0,
+    "explanation": "Client sends SYN with initial sequence number, server responds with SYN-ACK acknowledging client's sequence number and presenting its own, and client acknowledges with ACK to establish full-duplex connection.",
+    "objective": "Understand TCP connection lifecycle, sequence number synchronization, and handshake fundamentals.",
+    "skillTags": [
+      "TCP",
+      "Transport Layer",
+      "Handshake",
+      "Networking"
+    ],
+    "keywords": [
+      "tcp",
+      "syn",
+      "syn-ack",
+      "ack",
+      "three-way handshake"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_hard_http2_vs_http3_quic",
+    "subject": "networks",
+    "topic": "application_layer",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "What fundamental problem in HTTP/2 did HTTP/3 solve by transitioning from TCP to QUIC (over UDP)?",
+    "options": [
+      "Head-of-Line (HoL) blocking at the transport (TCP) layer when a packet is dropped",
+      "Lack of TLS encryption support",
+      "Inability to stream video files larger than 1GB",
+      "HTTP/2 only working on Internet Explorer"
+    ],
+    "answer": 0,
+    "explanation": "While HTTP/2 multiplexes streams over a single TCP connection, a single dropped TCP packet stalls all multiplexed streams until retransmission succeeds. QUIC streams are independent over UDP, eliminating TCP-level Head-of-Line blocking.",
+    "objective": "Evaluate modern web transport protocols, QUIC multiplexing, and TCP Head-of-Line blocking mitigation.",
+    "skillTags": [
+      "HTTP/3",
+      "QUIC",
+      "HTTP/2",
+      "Head-of-Line Blocking"
+    ],
+    "keywords": [
+      "http/3",
+      "quic",
+      "head of line blocking",
+      "udp",
+      "multiplexing"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_med_dns_resolution_hierarchy",
+    "subject": "networks",
+    "topic": "dns",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "Describe the hierarchical DNS resolution process when a browser queries an uncached domain name like 'api.github.com'.",
+    "explanation": "The local recursive resolver queries Root Nameservers ('.'), which delegate to Top-Level Domain (TLD) servers ('.com'). The TLD server directs the resolver to the Authoritative Nameservers for 'github.com', which returns the authoritative A/AAAA IP address record back to the resolver and client.",
+    "objective": "Trace hierarchical DNS architecture from local resolver to authoritative nameservers.",
+    "skillTags": [
+      "DNS",
+      "Networking",
+      "Internet Architecture"
+    ],
+    "keywords": [
+      "dns",
+      "recursive resolver",
+      "root nameserver",
+      "tld",
+      "authoritative nameserver",
+      "a record"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_hard_tls_13_handshake",
+    "subject": "networks",
+    "topic": "security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "What major latency enhancement was introduced in TLS 1.3 compared to TLS 1.2?",
+    "options": [
+      "1-RTT handshake by default (and optional 0-RTT resumption) by combining cipher negotiation with Diffie-Hellman key exchange",
+      "Removal of asymmetric cryptography entirely",
+      "Switching from AES to plain base64 encoding",
+      "Elimination of certificate verification authority checks"
+    ],
+    "answer": 0,
+    "explanation": "TLS 1.3 reduced handshake latency from 2 round-trip times (2-RTT) to 1-RTT by having the client send key shares directly in the ClientHello, and allows 0-RTT session resumption for previously visited hosts.",
+    "objective": "Analyze modern network security protocols, TLS handshake round-trips, and cryptographic forward secrecy.",
+    "skillTags": [
+      "TLS",
+      "HTTPS",
+      "Network Security",
+      "Cryptography"
+    ],
+    "keywords": [
+      "tls 1.3",
+      "1-rtt",
+      "0-rtt",
+      "diffie-hellman",
+      "handshake latency"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "net_med_websockets_vs_sse",
+    "subject": "networks",
+    "topic": "application_layer",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "Compare WebSockets and Server-Sent Events (SSE). When should you prefer SSE over WebSockets in backend web design?",
+    "explanation": "WebSockets provide full-duplex bidirectional TCP communication with minimal framing over a custom protocol after an HTTP upgrade. SSE provides unidirectional server-to-client streaming over standard HTTP/1.1 or HTTP/2, natively supporting auto-reconnection, event IDs, and corporate proxies without custom firewall configuration. Prefer SSE for unidirectional live feeds, notification dashboards, and LLM text generation streaming.",
+    "objective": "Architect real-time communication systems choosing between full-duplex WebSockets and HTTP SSE.",
+    "skillTags": [
+      "WebSockets",
+      "SSE",
+      "Real-Time Systems",
+      "HTTP"
+    ],
+    "keywords": [
+      "websockets",
+      "server sent events",
+      "sse",
+      "bidirectional",
+      "unidirectional",
+      "http streaming"
+    ],
+    "softSkill": false
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "id": "ds_easy_1",
+    "subject": "ds",
+    "topic": "arrays",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "What is the time complexity of accessing an element by index in an array?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "answer": 0,
+    "explanation": "Arrays support random access: the address is base + index * elementSize, so it is constant time.",
+    "objective": "Arrays support random access: the address is base + index * elementSize, so it is constant time.",
+    "skillTags": [
+      "Arrays"
+    ],
+    "keywords": [
+      "complexity",
+      "accessing",
+      "element"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_easy_2",
+    "subject": "ds",
+    "topic": "linked_lists",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "What is the time complexity of searching for an element in a singly linked list?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "answer": 2,
+    "explanation": "You must traverse from the head because there is no random access, so the worst case visits every node.",
+    "objective": "You must traverse from the head because there is no random access, so the worst case visits every node.",
+    "skillTags": [
+      "Linked Lists"
+    ],
+    "keywords": [
+      "complexity",
+      "searching",
+      "element"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_easy_3",
+    "subject": "ds",
+    "topic": "stacks",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "Which principle does a stack follow?",
+    "options": [
+      "FIFO",
+      "LIFO",
+      "Priority order",
+      "Random order"
+    ],
+    "answer": 1,
+    "explanation": "A stack is Last In First Out: the most recently pushed element is the first one popped.",
+    "objective": "A stack is Last In First Out: the most recently pushed element is the first one popped.",
+    "skillTags": [
+      "Stacks"
+    ],
+    "keywords": [
+      "principle"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_easy_4",
+    "subject": "ds",
+    "topic": "queues",
+    "difficulty": "Easy",
+    "type": "Text",
+    "text": "Which data structure serves elements in First In First Out order?",
+    "keywords": [
+      "queue",
+      "FIFO",
+      "front",
+      "rear"
+    ],
+    "minKeywords": 2,
+    "explanation": "A queue inserts at the rear and removes from the front, preserving arrival order.",
+    "objective": "A queue inserts at the rear and removes from the front, preserving arrival order.",
+    "skillTags": [
+      "Queues"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_med_1",
+    "subject": "ds",
+    "topic": "trees",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "In a binary search tree, where is the maximum element found?",
+    "options": [
+      "Root",
+      "Right-most node",
+      "Left-most node",
+      "Any leaf"
+    ],
+    "answer": 1,
+    "explanation": "Keep going right until there is no right child; that node holds the largest key.",
+    "objective": "Keep going right until there is no right child; that node holds the largest key.",
+    "skillTags": [
+      "Trees"
+    ],
+    "keywords": [
+      "maximum",
+      "element"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_med_2",
+    "subject": "ds",
+    "topic": "trees",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "What is the maximum number of nodes at level L (root at level 0) of a binary tree?",
+    "keywords": [
+      "2^l",
+      "2",
+      "level",
+      "power of two"
+    ],
+    "minKeywords": 2,
+    "explanation": "Each level can hold at most twice the previous level, so level L holds 2^L nodes.",
+    "objective": "Each level can hold at most twice the previous level, so level L holds 2^L nodes.",
+    "skillTags": [
+      "Trees"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_med_3",
+    "subject": "ds",
+    "topic": "hashing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "What is the average-case time complexity of a hash table lookup with a good hash function?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(log log n)"
+    ],
+    "answer": 0,
+    "explanation": "With a uniform hash and low load factor, the expected chain length is constant.",
+    "objective": "With a uniform hash and low load factor, the expected chain length is constant.",
+    "skillTags": [
+      "Hashing"
+    ],
+    "keywords": [
+      "average-case",
+      "complexity",
+      "function"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_med_4",
+    "subject": "ds",
+    "topic": "heaps",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "What is the time complexity of inserting an element into a binary min-heap of n elements?",
+    "keywords": [
+      "log",
+      "height",
+      "bubble up",
+      "o(log"
+    ],
+    "minKeywords": 1,
+    "explanation": "The new element bubbles up at most the height of the heap, which is O(log n).",
+    "objective": "The new element bubbles up at most the height of the heap, which is O(log n).",
+    "skillTags": [
+      "Heaps"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_hard_1",
+    "subject": "ds",
+    "topic": "balanced_trees",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "What is the height of an AVL tree with n nodes?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(sqrt(n))"
+    ],
+    "answer": 0,
+    "explanation": "AVL rotations keep the height balanced within a constant factor of log n.",
+    "objective": "AVL rotations keep the height balanced within a constant factor of log n.",
+    "skillTags": [
+      "Balanced Trees"
+    ],
+    "keywords": [
+      "concept"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_hard_2",
+    "subject": "ds",
+    "topic": "graphs",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "State the time complexity of a breadth-first search on a graph with V vertices and E edges represented by adjacency lists.",
+    "keywords": [
+      "v+e",
+      "o(v",
+      "linear",
+      "each edge once"
+    ],
+    "minKeywords": 1,
+    "explanation": "Each vertex and each edge is visited a constant number of times, giving O(V + E).",
+    "objective": "Each vertex and each edge is visited a constant number of times, giving O(V + E).",
+    "skillTags": [
+      "Graphs"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_hard_3",
+    "subject": "ds",
+    "topic": "disjoint_sets",
+    "difficulty": "Hard",
+    "type": "Coding",
+    "text": "Implement a union-find (disjoint set) structure with path compression and union by rank. It must report whether two elements are already connected.",
+    "templateCode": "#include <vector>\n\nclass UnionFind {\npublic:\n    explicit UnionFind(int n) { /* TODO: initialise parent and rank */ }\n    int find(int x) { /* TODO: recursive find with path compression */ return x; }\n    bool unite(int a, int b) { /* TODO: union by rank, return false if already united */ return false; }\n    bool connected(int a, int b) { return find(a) == find(b); }\n};\n",
+    "testCases": [
+      {
+        "input": "5\nunite 0 1\nunite 2 3\nconnected 0 1\nconnected 0 2\nunite 1 2\nconnected 0 3",
+        "expectedOutput": "Yes\nNo\nYes",
+        "isHidden": false
+      },
+      {
+        "input": "4\nunite 0 3\nunite 1 2\nconnected 0 3\nconnected 1 3\nconnected 0 2",
+        "expectedOutput": "Yes\nNo\nNo",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Both optimisations give near-constant amortised cost per operation, bounded by the inverse Ackermann function.",
+    "objective": "Both optimisations give near-constant amortised cost per operation, bounded by the inverse Ackermann function.",
+    "skillTags": [
+      "Disjoint Sets"
+    ],
+    "keywords": [
+      "Implement",
+      "union-find",
+      "(disjoint",
+      "structure"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_hard_4",
+    "subject": "ds",
+    "topic": "graphs",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Why does Dijkstra's algorithm fail with negative edge weights while Bellman-Ford does not?",
+    "keywords": [
+      "greedy",
+      "settled",
+      "final",
+      "shortest path",
+      "relaxation"
+    ],
+    "minKeywords": 2,
+    "explanation": "Dijkstra finalises a vertex once popped, which is only safe when all edge weights are non-negative; Bellman-Ford relaxes every edge V-1 times so it tolerates negative weights (barring negative cycles).",
+    "objective": "Dijkstra finalises a vertex once popped, which is only safe when all edge weights are non-negative; Bellman-Ford relaxes every edge V-1 times so it tolerates ne",
+    "skillTags": [
+      "Graphs"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_coding_reverse_linked_list",
+    "subject": "ds",
+    "topic": "linked_lists",
+    "difficulty": "Easy",
+    "type": "Coding",
+    "text": "Given the head of a singly linked list represented as space-separated integers, reverse the list iteratively in O(n) time and O(1) space, and print the reversed elements space-separated.",
+    "templateCode": "#include <iostream>\n#include <vector>\n\nstruct ListNode {\n    int val;\n    ListNode* next;\n    ListNode(int x) : val(x), next(nullptr) {}\n};\n\nListNode* reverseList(ListNode* head) {\n    // TODO: 3-pointer iterative reversal\n    return nullptr;\n}\n\nint main() {\n    int n;\n    if (!(std::cin >> n) || n <= 0) return 0;\n    ListNode dummy(0);\n    ListNode* tail = &dummy;\n    for (int i = 0; i < n; ++i) {\n        int v; std::cin >> v;\n        tail->next = new ListNode(v);\n        tail = tail->next;\n    }\n    ListNode* rev = reverseList(dummy.next);\n    while (rev) {\n        std::cout << rev->val << (rev->next ? \" \" : \"\");\n        rev = rev->next;\n    }\n    std::cout << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "5\n1 2 3 4 5",
+        "expectedOutput": "5 4 3 2 1",
+        "isHidden": false
+      },
+      {
+        "input": "2\n1 2",
+        "expectedOutput": "2 1",
+        "isHidden": false
+      },
+      {
+        "input": "1\n42",
+        "expectedOutput": "42",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Use prev, curr, and next pointers to reverse link directions in place without extra memory allocations.",
+    "objective": "Pointer manipulation and in-place list transformations.",
+    "skillTags": [
+      "Linked Lists",
+      "Pointers"
+    ],
+    "keywords": [
+      "reverse",
+      "linked list",
+      "iterative",
+      "pointers"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_coding_min_stack",
+    "subject": "ds",
+    "topic": "stacks",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant O(1) time.",
+    "templateCode": "#include <iostream>\n#include <stack>\n#include <string>\n\nclass MinStack {\n    std::stack<int> s;\n    std::stack<int> min_s;\npublic:\n    void push(int val) {\n        // TODO: Push value and maintain minimum\n    }\n    void pop() {\n        // TODO: Pop from stack and min_stack\n    }\n    int top() {\n        return s.top();\n    }\n    int getMin() {\n        return min_s.top();\n    }\n};\n\nint main() {\n    int q;\n    if (!(std::cin >> q)) return 0;\n    MinStack ms;\n    while (q--) {\n        std::string op;\n        std::cin >> op;\n        if (op == \"push\") {\n            int val; std::cin >> val;\n            ms.push(val);\n        } else if (op == \"pop\") {\n            ms.pop();\n        } else if (op == \"top\") {\n            std::cout << ms.top() << std::endl;\n        } else if (op == \"getMin\") {\n            std::cout << ms.getMin() << std::endl;\n        }\n    }\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "6\npush -2\npush 0\npush -3\ngetMin\npop\ntop",
+        "expectedOutput": "-3\n0",
+        "isHidden": false
+      },
+      {
+        "input": "4\npush 5\npush 2\ngetMin\npop",
+        "expectedOutput": "2",
+        "isHidden": true
+      }
+    ],
+    "explanation": "Maintain an auxiliary stack tracking the minimum element seen so far at each height of the main stack.",
+    "objective": "Stack tracking patterns and constant-time invariant preservation.",
+    "skillTags": [
+      "Stack",
+      "Data Structure Design"
+    ],
+    "keywords": [
+      "min stack",
+      "constant time",
+      "getMin"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds_coding_tree_diameter",
+    "subject": "ds",
+    "topic": "trees",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Given the root of a binary tree, return the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree (number of edges).",
+    "templateCode": "#include <iostream>\n#include <algorithm>\n\nstruct TreeNode {\n    int val;\n    TreeNode *left, *right;\n    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}\n};\n\nint depth(TreeNode* root, int& diameter) {\n    // TODO: compute depth and update max diameter\n    return 0;\n}\n\nint diameterOfBinaryTree(TreeNode* root) {\n    int diameter = 0;\n    depth(root, diameter);\n    return diameter;\n}\n\nint main() {\n    // Construct sample tree: 1 -> (2 -> 4, 5), 3\n    TreeNode* root = new TreeNode(1);\n    root->left = new TreeNode(2);\n    root->right = new TreeNode(3);\n    root->left->left = new TreeNode(4);\n    root->left->right = new TreeNode(5);\n    std::cout << diameterOfBinaryTree(root) << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "test",
+        "expectedOutput": "3",
+        "isHidden": false
+      }
+    ],
+    "explanation": "At every node, the longest path passing through it is left_height + right_height. Compute tree height via DFS in O(n) while updating global maximum.",
+    "objective": "Tree DFS traversal and depth computation.",
+    "skillTags": [
+      "Trees",
+      "Binary Tree",
+      "DFS"
+    ],
+    "keywords": [
+      "diameter",
+      "binary tree",
+      "longest path",
+      "dfs"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "ds-implement-trie-prefix-tree",
+    "subject": "ds",
+    "topic": "trees",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "A Trie (prefix tree) is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. Implement a Trie class with insert, search, and startsWith methods.",
+    "explanation": "Each TrieNode contains an array of 26 child pointers (for lowercase English letters) and a boolean isEndOfWord flag. Traversal follows character edges in O(L) time where L is string length.",
+    "objective": "Implement prefix trees for fast dictionary and autocomplete lookups.",
+    "skillTags": [
+      "Trie",
+      "Trees",
+      "Prefix Tree",
+      "Data Structures"
+    ],
+    "keywords": [
+      "trie",
+      "prefix tree",
+      "autocomplete",
+      "strings"
+    ],
+    "softSkill": false,
+    "templateCode": "#include <iostream>\n#include <string>\n#include <vector>\n\nstruct TrieNode {\n    TrieNode* children[26] = {nullptr};\n    bool isEnd = false;\n};\n\nclass Trie {\n    TrieNode root;\npublic:\n    void insert(const std::string& word) {\n        TrieNode* curr = &root;\n        for (char c : word) {\n            int idx = c - 'a';\n            if (!curr->children[idx]) curr->children[idx] = new TrieNode();\n            curr = curr->children[idx];\n        }\n        curr->isEnd = true;\n    }\n    bool search(const std::string& word) {\n        TrieNode* curr = &root;\n        for (char c : word) {\n            int idx = c - 'a';\n            if (!curr->children[idx]) return false;\n            curr = curr->children[idx];\n        }\n        return curr->isEnd;\n    }\n};\n\nint main() {\n    Trie t;\n    t.insert(\"apple\");\n    std::cout << t.search(\"apple\") << \" \" << t.search(\"app\") << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "",
+        "expectedOutput": "1 0",
+        "isHidden": false
+      }
+    ]
+  },
+  {
+    "id": "ds-lowest-common-ancestor-binary-tree",
+    "subject": "ds",
+    "topic": "binary_trees",
+    "difficulty": "Medium",
+    "type": "Coding",
+    "text": "Given a binary tree, find the lowest common ancestor (LCA) of two given nodes p and q in O(N) time and O(H) recursion stack space.",
+    "explanation": "Recursively traverse the tree: if current node is null or equals p or q, return root. Recursively search left and right subtrees. If both return non-null, the current node is the LCA. Otherwise return the non-null child.",
+    "objective": "Master post-order tree traversal for ancestor finding.",
+    "skillTags": [
+      "Binary Trees",
+      "Recursion",
+      "LCA",
+      "Data Structures"
+    ],
+    "keywords": [
+      "lowest common ancestor",
+      "binary tree",
+      "recursion",
+      "post-order"
+    ],
+    "softSkill": false,
+    "templateCode": "#include <iostream>\n\nstruct Node {\n    int val;\n    Node* left = nullptr;\n    Node* right = nullptr;\n    Node(int v) : val(v) {}\n};\n\nNode* lca(Node* root, int p, int q) {\n    if (!root || root->val == p || root->val == q) return root;\n    Node* l = lca(root->left, p, q);\n    Node* r = lca(root->right, p, q);\n    if (l && r) return root;\n    return l ? l : r;\n}\n\nint main() {\n    Node* root = new Node(3);\n    root->left = new Node(5);\n    root->right = new Node(1);\n    Node* res = lca(root, 5, 1);\n    std::cout << (res ? res->val : -1) << std::endl;\n    return 0;\n}\n",
+    "testCases": [
+      {
+        "input": "",
+        "expectedOutput": "3",
+        "isHidden": false
+      }
+    ]
+  }
+]

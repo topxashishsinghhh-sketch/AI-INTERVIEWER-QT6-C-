@@ -1,0 +1,432 @@
+[
+  {
+    "id": "dbms_easy_1",
+    "subject": "dbms",
+    "topic": "relational",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "In the relational model, a row of a table is called a:",
+    "options": [
+      "Tuple",
+      "Attribute",
+      "Relation key",
+      "Schema"
+    ],
+    "answer": 0,
+    "explanation": "Rows are tuples, columns are attributes, and the table itself is a relation.",
+    "objective": "Rows are tuples, columns are attributes, and the table itself is a relation.",
+    "skillTags": [
+      "Relational Model"
+    ],
+    "keywords": [
+      "relational"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_easy_2",
+    "subject": "dbms",
+    "topic": "sql",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "Which SQL clause filters groups produced by GROUP BY?",
+    "options": [
+      "HAVING",
+      "WHERE",
+      "ORDER BY",
+      "LIMIT"
+    ],
+    "answer": 0,
+    "explanation": "WHERE filters rows before grouping; HAVING filters the resulting groups.",
+    "objective": "WHERE filters rows before grouping; HAVING filters the resulting groups.",
+    "skillTags": [
+      "SQL"
+    ],
+    "keywords": [
+      "filters",
+      "produced"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_easy_3",
+    "subject": "dbms",
+    "topic": "keys",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "text": "A superkey is:",
+    "options": [
+      "Any set of attributes that uniquely identifies a tuple",
+      "Always a single column",
+      "Never a primary key",
+      "A foreign key"
+    ],
+    "answer": 0,
+    "explanation": "Any attribute set whose values are unique across rows qualifies; a candidate key is a minimal superkey.",
+    "objective": "Any attribute set whose values are unique across rows qualifies; a candidate key is a minimal superkey.",
+    "skillTags": [
+      "Keys and Constraints"
+    ],
+    "keywords": [
+      "superkey"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_easy_4",
+    "subject": "dbms",
+    "topic": "normalization",
+    "difficulty": "Easy",
+    "type": "Text",
+    "text": "What does first normal form (1NF) require?",
+    "keywords": [
+      "atomic",
+      "single valued",
+      "repeating group",
+      "indivisible"
+    ],
+    "minKeywords": 2,
+    "explanation": "Every attribute must hold a single atomic value with no repeating groups.",
+    "objective": "Every attribute must hold a single atomic value with no repeating groups.",
+    "skillTags": [
+      "Normalization"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_med_1",
+    "subject": "dbms",
+    "topic": "transactions",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "The 'C' in ACID stands for:",
+    "options": [
+      "Consistency",
+      "Concurrency",
+      "Compilation",
+      "Commit"
+    ],
+    "answer": 0,
+    "explanation": "Consistency means a transaction moves the database from one valid state to another.",
+    "objective": "Consistency means a transaction moves the database from one valid state to another.",
+    "skillTags": [
+      "Transactions"
+    ],
+    "keywords": [
+      "concept"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_med_2",
+    "subject": "dbms",
+    "topic": "indexing",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "Why is a B+ tree preferred over a binary search tree for disk indexes?",
+    "keywords": [
+      "height",
+      "fanout",
+      "node",
+      "disk",
+      "i/o",
+      "fewer"
+    ],
+    "minKeywords": 2,
+    "explanation": "High fanout keeps the tree shallow, so far fewer disk I/Os are needed per lookup and leaves are linked for range scans.",
+    "objective": "High fanout keeps the tree shallow, so far fewer disk I/Os are needed per lookup and leaves are linked for range scans.",
+    "skillTags": [
+      "Indexing"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_med_3",
+    "subject": "dbms",
+    "topic": "normalization",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "A relation is in 2NF when it is in 1NF and:",
+    "options": [
+      "No partial dependency of non-prime attributes on a candidate key",
+      "No transitive dependency",
+      "No multivalued dependency",
+      "Every determinant is a key"
+    ],
+    "answer": 0,
+    "explanation": "2NF removes partial dependencies where a non-prime attribute depends on part of a composite key.",
+    "objective": "2NF removes partial dependencies where a non-prime attribute depends on part of a composite key.",
+    "skillTags": [
+      "Normalization"
+    ],
+    "keywords": [
+      "relation"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_med_4",
+    "subject": "dbms",
+    "topic": "concurrency",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "What is a lost update, and which isolation level prevents it?",
+    "keywords": [
+      "overwrite",
+      "concurrent",
+      "read committed",
+      "uncommitted",
+      "two transactions"
+    ],
+    "minKeywords": 2,
+    "explanation": "Two transactions read and write the same row so one write is lost; READ COMMITTED or higher prevents it.",
+    "objective": "Two transactions read and write the same row so one write is lost; READ COMMITTED or higher prevents it.",
+    "skillTags": [
+      "Concurrency"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_hard_1",
+    "subject": "dbms",
+    "topic": "transactions",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "Which isolation level still allows phantom reads?",
+    "options": [
+      "Repeatable Read in some engines",
+      "Serializable",
+      "Snapshot in most engines",
+      "Strict two-phase locking"
+    ],
+    "answer": 0,
+    "explanation": "REPEATABLE READ guarantees row stability but not range stability, so new matching rows can appear.",
+    "objective": "REPEATABLE READ guarantees row stability but not range stability, so new matching rows can appear.",
+    "skillTags": [
+      "Transactions"
+    ],
+    "keywords": [
+      "isolation",
+      "phantom"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_hard_2",
+    "subject": "dbms",
+    "topic": "query",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Why can a nested-loop join be cheaper than a hash join for small, indexed inputs?",
+    "keywords": [
+      "index",
+      "nested",
+      "probe",
+      "build",
+      "hashing",
+      "small"
+    ],
+    "minKeywords": 2,
+    "explanation": "With an index on the inner relation each outer row costs a few lookups, avoiding the hash build and memory cost.",
+    "objective": "With an index on the inner relation each outer row costs a few lookups, avoiding the hash build and memory cost.",
+    "skillTags": [
+      "Query Processing"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_hard_3",
+    "subject": "dbms",
+    "topic": "indexing",
+    "difficulty": "Hard",
+    "type": "Coding",
+    "text": "Write SQL to find the second highest salary from an employees table, returning NULL when it does not exist.",
+    "templateCode": "SELECT /* second highest salary */ FROM employees;\n",
+    "testCases": [
+      {
+        "input": "100;200;300",
+        "expectedOutput": "200",
+        "isHidden": false
+      },
+      {
+        "input": "100",
+        "expectedOutput": "NULL",
+        "isHidden": true
+      }
+    ],
+    "explanation": "ORDER BY ... LIMIT 1 OFFSET 1, or a subquery with MAX(salary) < (SELECT MAX(salary) ...), returns the runner-up.",
+    "objective": "ORDER BY ... LIMIT 1 OFFSET 1, or a subquery with MAX(salary) < (SELECT MAX(salary) ...), returns the runner-up.",
+    "skillTags": [
+      "Indexing"
+    ],
+    "keywords": [
+      "highest",
+      "employees",
+      "returning"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_hard_4",
+    "subject": "dbms",
+    "topic": "normalization",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Explain how BCNF differs from 3NF and when a schema can be in 3NF but not BCNF.",
+    "keywords": [
+      "determinant",
+      "superkey",
+      "transitive",
+      "prime",
+      "candidate"
+    ],
+    "minKeywords": 2,
+    "explanation": "BCNF requires every determinant to be a superkey; 3NF tolerates a transitive dependency when the dependent attribute is prime.",
+    "objective": "BCNF requires every determinant to be a superkey; 3NF tolerates a transitive dependency when the dependent attribute is prime.",
+    "skillTags": [
+      "Normalization"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_med_bplus_tree_vs_hash",
+    "subject": "dbms",
+    "topic": "indexing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "Why do relational database storage engines (like InnoDB) overwhelmingly prefer B+ Tree indexing over Hash indexing for primary keys?",
+    "options": [
+      "B+ Trees support efficient range queries, prefix matching, and sorted scans due to linked leaf nodes",
+      "Hash indexes require O(N^2) memory and cannot store integers",
+      "B+ Trees only consume memory while Hash indexes write directly to floppy drives",
+      "Hash indexes do not support exact point lookups"
+    ],
+    "answer": 0,
+    "explanation": "B+ Trees keep keys in sorted order with contiguous leaf node pointers, enabling fast range scans (e.g., WHERE age BETWEEN 20 AND 30) with O(log N) depth. Hash indexes only support O(1) exact equality lookups.",
+    "objective": "Understand relational database indexing data structures, tree balancing, and range query efficiency.",
+    "skillTags": [
+      "B+ Tree",
+      "Indexing",
+      "Storage Engines",
+      "SQL Optimization"
+    ],
+    "keywords": [
+      "b+ tree",
+      "indexing",
+      "range queries",
+      "hash index",
+      "innodb"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_hard_acid_isolation_levels",
+    "subject": "dbms",
+    "topic": "transactions",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "text": "Which concurrency anomaly can occur in the 'Repeatable Read' isolation level that is prevented by 'Serializable'?",
+    "options": [
+      "Phantom Reads",
+      "Dirty Reads",
+      "Non-Repeatable Reads",
+      "Lost Updates"
+    ],
+    "answer": 0,
+    "explanation": "Repeatable Read prevents Dirty Reads and Non-Repeatable Reads for existing rows, but in standard SQL specifications allows Phantom Reads (new rows inserted by concurrent transactions matching a range predicate). Serializable prevents all anomalies.",
+    "objective": "Analyze ANSI SQL transaction isolation levels, concurrency anomalies, and multi-version concurrency control (MVCC).",
+    "skillTags": [
+      "Transactions",
+      "ACID",
+      "Isolation Levels",
+      "MVCC"
+    ],
+    "keywords": [
+      "phantom read",
+      "repeatable read",
+      "serializable",
+      "dirty read",
+      "isolation"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_med_wal_crash_recovery",
+    "subject": "dbms",
+    "topic": "crash_recovery",
+    "difficulty": "Medium",
+    "type": "Text",
+    "text": "Explain Write-Ahead Logging (WAL) in database systems. How does it guarantee the Durability property of ACID without synchronous random disk writes?",
+    "explanation": "WAL dictates that any modifications must be written sequentially to append-only log files on durable storage before the corresponding dirty data pages are flushed to database disk files. This turns random I/O into fast sequential I/O, allowing the engine to recover state after crashes by replaying redo logs.",
+    "objective": "Explain database recovery architectures, append-only logs, and ACID durability enforcement.",
+    "skillTags": [
+      "WAL",
+      "Durability",
+      "Crash Recovery",
+      "Transactions"
+    ],
+    "keywords": [
+      "write ahead logging",
+      "wal",
+      "durability",
+      "redo log",
+      "sequential write",
+      "crash recovery"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_med_bcnf_normalization",
+    "subject": "dbms",
+    "topic": "normalization",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "text": "What is the defining condition for a relation to be in Boyce-Codd Normal Form (BCNF)?",
+    "options": [
+      "For every non-trivial functional dependency X -> Y, X must be a superkey",
+      "Every attribute must be indexed using an AVL tree",
+      "There must be at least two foreign keys referencing the master table",
+      "All columns must allow NULL values to avoid update anomalies"
+    ],
+    "answer": 0,
+    "explanation": "BCNF is a stricter version of 3NF requiring that for every functional dependency X -> Y, the left-hand side X is a superkey of the relation.",
+    "objective": "Master database normalization principles and functional dependency decomposition.",
+    "skillTags": [
+      "Normalization",
+      "BCNF",
+      "Relational Schema Design"
+    ],
+    "keywords": [
+      "bcnf",
+      "superkey",
+      "normalization",
+      "functional dependency"
+    ],
+    "softSkill": false
+  },
+  {
+    "id": "dbms_hard_sharding_vs_replication",
+    "subject": "dbms",
+    "topic": "distributed_databases",
+    "difficulty": "Hard",
+    "type": "Text",
+    "text": "Compare Database Sharding with Read Replication. When is horizontal sharding necessary, and what complexities does it introduce?",
+    "explanation": "Read replication maintains identical copies of the database across secondary nodes to scale read throughput and ensure high availability. Sharding horizontally partitions rows across multiple independent database nodes when dataset volume or write throughput exceeds single-node storage and memory capacity. Complexities include cross-shard joins, distributed two-phase commit transactions, and re-sharding rebalancing.",
+    "objective": "Design scalable distributed database architectures and evaluate trade-offs in horizontal partitioning.",
+    "skillTags": [
+      "Sharding",
+      "Replication",
+      "Distributed Systems",
+      "Scalability"
+    ],
+    "keywords": [
+      "sharding",
+      "replication",
+      "horizontal partitioning",
+      "distributed transactions",
+      "two-phase commit",
+      "cross-shard"
+    ],
+    "softSkill": false
+  }
+]
